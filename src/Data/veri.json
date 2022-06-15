@@ -1,0 +1,80 @@
+
+{
+
+  "ada":[
+     {
+        "id": 1,
+        "soru": "Aleyna'nın doğum tarihi nedir?",
+        "resim": "/img/1.png",
+        "resim2": "/img/tarih2.png",
+        "cevap": "B"
+    },
+    {
+        "id": 2,
+        "soru": "Aleyna'nın ikinci ismi nedir?",
+        "resim": "/img/didem.png",
+        "resim2": "/img/derya.png",
+        "cevap": "A"
+    },
+    {
+        "id": 3,
+        "soru": "Aleyna'nın en sevdiği renk nedir?",
+        "resim": "/img/kırmızı.png",
+        "resim2": "/img/mavi.png",
+        "cevap": "B"
+    },
+    {
+        "id": 4,
+        "soru": "Aleyna'nın en sevdiği yemek nedir?",
+        "resim": "https://oralhcg.com/wp-content/uploads/2019/03/carne.jpg",
+        "resim2": "https://i.ytimg.com/vi/w37h9Vou054/mqdefault.jpg",
+        "cevap": "A"
+    },
+    {
+        "id": 5,
+        "soru": "Aleyna hangisini daha çok sever?",
+        "resim": "https://www.fenerbahce.org/getmedia/0f93dc2e-1cc1-400f-bd32-66877243ce6b/Voleybol.jpg?width=1200&height=674&ext=.jpg",
+        "resim2": "https://d.neoldu.com/news/77072.jpg",
+        "cevap": "A"
+    },
+    {
+        "id": 6,
+        "soru": "Aleyna hangisini daha çok sever?",
+        "resim": "https://img.artigercek.com/uploads/c/d/idv8rQeTgU2slSWcqKxb0lL6vKGsWrzD4OMTuEW1.jpeg",
+        "resim2": "https://sinemaakademi.com.tr/uploads/2021/05/yu-ksek-sesli-kitap-okumak-konus-mayi-gelis-tirir-mi.jpg",
+        "cevap": "B"
+    },
+    {
+        "id": 7,
+        "soru": "Aleyna hangisini daha çok sever?",
+        "resim": "https://coffeemag.com.tr/wp-content/uploads/2017/09/resim-yapma-teknikleri-5.jpg",
+        "resim2": "https://bilimgenc.tubitak.gov.tr/sites/default/files/styles/bp-770px-custom_user_mobile_1x/public/yazmanin_faydalari_1.jpg?itok=EVM4yWWg&timestamp=1625572021",
+        "cevap": "B"
+    },
+    {
+        "id": 8,
+        "soru": "Aleyna hangisini daha çok sever?",
+        "resim": "https://cunkubaskasenyok.com/wp-content/uploads/2021/10/En-Cok-Tercih-Edilen-Kedi-Cinsleri-.jpg",
+        "resim2": "/img/bobo.jpeg",
+        "cevap": "B"
+    },
+    {
+        "id": 9,
+        "soru": "Aleyna'nın evcil hayvanının ismi nedir?",
+        "resim": "/img/bobo.png",
+        "resim2": "/img/dodo.png",
+        "cevap": "A"
+    },
+    {
+        "id": 10,
+        "soru": "Aleyna nereli?",
+        "resim": "/img/artvin.png",
+        "resim2": "/img/trabzon.png",
+        "cevap": "A"
+    }
+    
+   
+  ]
+     
+  
+}
