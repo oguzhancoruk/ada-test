@@ -19,8 +19,8 @@
     {
         "id": 3,
         "soru": "Aleyna'nın en sevdiği renk nedir?",
-        "resim": "/img/kırmızı.png",
-        "resim2": "/img/mavi.png",
+        "resim": "https://metlemtik.files.wordpress.com/2018/01/977bfshutterstock_128187014-siyah-beyaz-renkli-tunel-3d.jpg",
+        "resim2": "https://www.permolitboya.com.tr/wp-content/uploads/2019/08/Permolit-gokkusaginin-renkleri-nelerdir-gokkusagi-gokkusaginin-renkleri-nelerdir-gokkusagi.jpg",
         "cevap": "B"
     },
     {
