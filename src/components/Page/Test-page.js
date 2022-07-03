@@ -45,7 +45,7 @@ function TestPage() {
                             className='img-fluid'
                             src={item.resim}
                             alt="kedi" />
-                        <div className='btnn mt-3'><button disabled={answerA} onClick={(e) => {
+                        <div className='btnn mt-3 ' ><button className='btn btn-primary' disabled={answerA} onClick={(e) => {
 
 
                             if (e.target.value === item.cevap) {
@@ -68,7 +68,7 @@ function TestPage() {
                             className='img-fluid'
                             src={item.resim2}
                             alt="köpek" />
-                        <div className='btnn mt-3'> <button disabled={answerB} onClick={(e) => {
+                        <div className='btnn mt-3'> <button className='btn btn-primary' disabled={answerB} onClick={(e) => {
                             if (e.target.value === item.cevap) {
                                 dispatch(changeCevap(e.target.value))
 

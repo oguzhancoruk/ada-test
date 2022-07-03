@@ -65,14 +65,42 @@
         "resim2": "/img/dodo.png",
         "cevap": "A"
     },
-    {
+   
+     {
         "id": 10,
         "soru": "Aleyna nereli?",
         "resim": "/img/artvin.png",
         "resim2": "/img/trabzon.png",
         "cevap": "A"
+    },
+     {
+        "id": 11,
+        "soru": "En çok hangi oyunu sever ?",
+        "resim": "https://play-lh.googleusercontent.com/JMNWaZel_qg6qj8T0bjX5OeLvXdka4hxzT_rsSVe5qQWHg798GmJcZetlQYm9-VlTsk",
+        "resim2": "https://play-lh.googleusercontent.com/rIvZQ_H3hfmexC8vurmLczLtMNBFtxCEdmb2NwkSPz2ZuJJ5nRPD0HbSJ7YTyFGdADQ",
+        "cevap": "B"
+    },
+     {
+        "id": 12,
+        "soru": "Hangi anda daha çok heyecanlanmıştır ?",
+        "resim": "/img/bobo4.png",
+        "resim2": "/img/dans1.png",
+        "cevap": "A"
+    },
+     {
+        "id": 13,
+        "soru": "Aleyna psikolog olmasaydı ne olurdu ?",
+        "resim": "/img/hukuk.png",
+        "resim2": "/img/spor.png",
+        "cevap": "A"
+    },
+     {
+        "id": 14,
+        "soru": "Aleyna Hangi takımı tutuyor ?",
+        "resim": "https://cdn.ntvspor.net/23ef1cdb557942a5b476aed03c85dc45.jpg?mode=crop&w=940&h=626",
+        "resim2": "https://cdn.ntvspor.net/8e6900a8befb4c2d84e3b7fb62ae00ff.jpg?mode=crop&w=940&h=626",
+        "cevap": "A"
     }
-    
    
   ]
      

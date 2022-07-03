@@ -59,10 +59,10 @@ function Home() {
 
       <TestPage />
       <div className='mt-5 ts '>
-        <button className='next' disabled={disable}
+        <button className='next btn btn-primary' disabled={disable}
 
           onClick={() => {
-            if (count === 10) {
+            if (count === 14) {
               dispatch(changeDisabled(true))
               dispatch(chanceResultShow(true))
               dispatch(getText(answers))

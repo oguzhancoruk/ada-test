@@ -17,7 +17,7 @@ function User() {
         <div className='container-fluid '>
             <div className='admin '>
 
-                <Link to='admin'><button onClick={() => {
+                <Link to='admin'><button className='btn btn-primary' onClick={() => {
                     dispatch(getAdmin(true))
                     dispatch(user_post(false))
                 }}>A.D.A GİRİŞ</button></Link></div>
@@ -41,7 +41,7 @@ function User() {
 
 
                         <div className='user-div'>
-                            <Link to="home"><button className='user-btn ' >Teste Başla</button></Link>
+                            <Link to="home"><button className='user-btn btn btn-primary ' >Teste Başla</button></Link>
                         </div>
 
                     </form>
