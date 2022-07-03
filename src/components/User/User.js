@@ -7,10 +7,13 @@ import { Link } from "react-router-dom";
 
 
 function User() {
-
+    const username = useSelector(ts => ts.test.userName)
+    var disabled = false
     const dispatch = useDispatch()
 
-
+    if (username === "") {
+        disabled = true
+    }
 
 
     return (
@@ -48,7 +51,7 @@ function User() {
 
 
                         <div className='user-div'>
-                            <Link to="home"><button className='user-btn btn btn-primary ' >Teste Başla</button></Link>
+                            <Link to="home"><button disabled={disabled} className='user-btn btn btn-primary ' >Teste Başla</button></Link>
                         </div>
 
                     </form>
