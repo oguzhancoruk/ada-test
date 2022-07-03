@@ -18,8 +18,8 @@ function Home() {
   const texts = [{
     text1: "Aleyna'yı tanımıyorsunuz. Daha çok zaman ayırın",
     text2: "Aleyna sizinle arkadaşlık ediyor. Ama olmazzsa olmaz değilsiniz. Birşeyler değişmeli!!",
-    text3: "Fena değil. İyi yoldasının",
-    text4: "O kişi sizsiniz. Aleyna'yı çok iyi tanıyorsunuz.",
+    text3: "Mükemmel ilişkiniz yok. Ama iyi yoldasının :)",
+    text4: "Aleyna'yı çok iyi tanıyorsunuz. Onunla geçıirdiğiniz her andan keyif almaya devam edin",
     text5: "Aleyna'nın vaktini boşa harcamayın.Onunla asla arkadaşlık edemezsiniz."
   }]
   let answers = ""
