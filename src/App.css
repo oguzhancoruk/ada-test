@@ -13,8 +13,10 @@ body {
 
 
 .text{
-  font-size: 50px;
+  font-size: 25px;
   font-weight: bold;
+  text-align: center;
+
 }
 
 .soru{
@@ -52,5 +54,69 @@ div img{
   border-style: solid;
   border: rgb(243, 174, 231);
   border-radius: 15%;
+ 
   
+}
+
+.user-div{
+  text-align: center;
+  justify-content: center;
+  margin-top: 25px;
+
+}
+.user-btn{
+ 
+  border: rgb(243, 174, 231);
+  border-radius: 15px;
+  
+}
+.user-btn:hover {
+
+  background-color:rgb(207, 207, 241)
+
+}
+input{
+  border: rgb(243, 174, 231);
+  border-radius: 15px;
+  
+
+  
+}
+input[type="text"]:focus{
+outline: none !important;
+  background-color:rgb(207, 207, 241)
+  
+
+}
+
+form{
+  display: block
+}
+.admin{
+  text-align: right;
+}
+.login{
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+.user{
+  text-align: center;
+}
+label{
+ 
+  text-align: center;
+  justify-content: center;
+  }
+.ts{
+  text-align: center;
+}
+.bord{
+  border-bottom: 5px solid rgb(105, 163, 216);
+}
+.sty{
+  border-radius: 15px;
+}
+.test-page{
+  text-align: center;
 }

@@ -13,7 +13,7 @@
         "id": 2,
         "soru": "Aleyna'nın ikinci ismi nedir?",
         "resim": "/img/didem.png",
-        "resim2": "/img/derya.png",
+        "resim2": "/img/derya2.png",
         "cevap": "A"
     },
     {
@@ -27,27 +27,27 @@
         "id": 4,
         "soru": "Aleyna'nın en sevdiği yemek nedir?",
         "resim": "https://oralhcg.com/wp-content/uploads/2019/03/carne.jpg",
-        "resim2": "https://i.ytimg.com/vi/w37h9Vou054/mqdefault.jpg",
+        "resim2": "/img/makarna.png",
         "cevap": "A"
     },
     {
         "id": 5,
         "soru": "Aleyna hangisini daha çok sever?",
-        "resim": "https://www.fenerbahce.org/getmedia/0f93dc2e-1cc1-400f-bd32-66877243ce6b/Voleybol.jpg?width=1200&height=674&ext=.jpg",
-        "resim2": "https://d.neoldu.com/news/77072.jpg",
+        "resim": "https://d.pusulahaber.com.tr/news/453744.jpg",
+        "resim2": "https://dansakademi.com.tr/uploads/2021/12/street-jazz-kursu.jpg",
         "cevap": "A"
     },
     {
         "id": 6,
         "soru": "Aleyna hangisini daha çok sever?",
-        "resim": "https://img.artigercek.com/uploads/c/d/idv8rQeTgU2slSWcqKxb0lL6vKGsWrzD4OMTuEW1.jpeg",
+        "resim": "https://techunwrapped.com/wp-content/uploads/2022/01/Netflix-increases-its-prices-in-the-United-States-soon-in.jpg",
         "resim2": "https://sinemaakademi.com.tr/uploads/2021/05/yu-ksek-sesli-kitap-okumak-konus-mayi-gelis-tirir-mi.jpg",
         "cevap": "B"
     },
     {
         "id": 7,
         "soru": "Aleyna hangisini daha çok sever?",
-        "resim": "https://coffeemag.com.tr/wp-content/uploads/2017/09/resim-yapma-teknikleri-5.jpg",
+        "resim": "https://blog.koctas.com.tr/wp-content/uploads/2022/04/resim-cizmek-icin-gerekli-malzemeler.jpg",
         "resim2": "https://bilimgenc.tubitak.gov.tr/sites/default/files/styles/bp-770px-custom_user_mobile_1x/public/yazmanin_faydalari_1.jpg?itok=EVM4yWWg&timestamp=1625572021",
         "cevap": "B"
     },
@@ -55,7 +55,7 @@
         "id": 8,
         "soru": "Aleyna hangisini daha çok sever?",
         "resim": "https://cunkubaskasenyok.com/wp-content/uploads/2021/10/En-Cok-Tercih-Edilen-Kedi-Cinsleri-.jpg",
-        "resim2": "/img/bobo.jpeg",
+        "resim2": "/img/bobo3.jpeg",
         "cevap": "B"
     },
     {

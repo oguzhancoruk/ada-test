@@ -1,36 +1,36 @@
 import React, { useEffect } from 'react'
-import { useSelector,useDispatch } from 'react-redux'
-import { changeCevap, changeItem,chanceAnswerCountB, changePuan,chanceAnswerCountA } from '../../redux/test.slice'
+import { useSelector, useDispatch } from 'react-redux'
+import { changeCevap, changeItem, chanceAnswerCountB, changePuan, chanceAnswerCountA } from '../../redux/test.slice'
 
 
 
 function TestPage() {
 
-const dispatch=useDispatch()    
-const data=useSelector(state=>state.test.item)
-const count=useSelector(ts=>ts.test.count)
+    const dispatch = useDispatch()
+    const data = useSelector(state => state.test.item)
+    const count = useSelector(ts => ts.test.count)
 
     const item = useSelector(ts => ts.test.newItem)
- 
-    
+
+
     const answerA = useSelector(ts => ts.test.answerCountA)
     const answerB = useSelector(ts => ts.test.answerCountB)
-    data.ada.map(res=>{
-    
-    
-    if(res.id===count){
-        dispatch(changeItem( data.ada[res.id - 1]
-            
-            
-))
-    }
+    data.ada.map(res => {
 
 
-})
-    
-   
-   
-    
+        if (res.id === count) {
+            dispatch(changeItem(data.ada[res.id - 1]
+
+
+            ))
+        }
+
+
+    })
+
+
+
+
 
     return (
         <div className='container'>
@@ -45,18 +45,17 @@ const count=useSelector(ts=>ts.test.count)
                             className='img-fluid'
                             src={item.resim}
                             alt="kedi" />
-                        <div className='btnn mt-3'><button disabled={answerA} onClick={(e)=>{
+                        <div className='btnn mt-3'><button disabled={answerA} onClick={(e) => {
 
-                            
-                            if(e.target.value===item.cevap)
-                            {
-                                
+
+                            if (e.target.value === item.cevap) {
+
                                 dispatch(changeCevap(e.target.value))
-                               
+
                             }
 
-                            else{
-                               
+                            else {
+
                             }
 
                             dispatch(chanceAnswerCountB(false))
@@ -67,17 +66,17 @@ const count=useSelector(ts=>ts.test.count)
                     <div className='col-sm-4 container-fluid '>
                         <img
                             className='img-fluid'
-                            src={item.resim2} 
+                            src={item.resim2}
                             alt="köpek" />
                         <div className='btnn mt-3'> <button disabled={answerB} onClick={(e) => {
                             if (e.target.value === item.cevap) {
                                 dispatch(changeCevap(e.target.value))
-                               
-                               
+
+
                             }
-                            else{
-                                
-                                
+                            else {
+
+
                             }
 
 
@@ -89,7 +88,7 @@ const count=useSelector(ts=>ts.test.count)
                 </div>
             </div>
         </div>
-       
+
     )
 }
 
