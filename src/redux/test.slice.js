@@ -27,7 +27,8 @@ export const testSlice = createSlice({
         resultShow: false,
         userName: "",
         text: "",
-        adminShow: false
+        adminShow: false,
+        userDisabled: false
 
     },
     reducers: {
@@ -69,8 +70,11 @@ export const testSlice = createSlice({
         },
         getadminShow: (state, action) => {
             state.adminShow = action.payload
+        },
+        getUserDisabled: (state, action) => {
+            state.userDisabled = action.payload
         }
     }
 })
-export const { changeCount, getAdmin, getUserName, changeDisabled, changeItem, changeCevap, changePuan, getText, chanceAnswerCountA, chanceAnswerCountB, chanceResultShow, user_post, getadminShow } = testSlice.actions
+export const { changeCount, getAdmin, getUserDisabled, getUserName, changeDisabled, changeItem, changeCevap, changePuan, getText, chanceAnswerCountA, chanceAnswerCountB, chanceResultShow, user_post, getadminShow } = testSlice.actions
 export default testSlice.reducer

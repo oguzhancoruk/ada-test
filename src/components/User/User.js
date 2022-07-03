@@ -2,7 +2,7 @@ import axios from 'axios'
 import React, { useState } from 'react'
 
 import { useSelector, useDispatch } from 'react-redux'
-import { user_post, getUserName, getAdmin, } from '../../redux/test.slice'
+import { user_post, getUserName, getAdmin, getUserDisabled } from '../../redux/test.slice'
 import { Link } from "react-router-dom";
 
 
@@ -32,7 +32,14 @@ function User() {
                     <form  >
 
                         <div className='container-fluid mt-5'>
-                            <input type="text" required="boş kalamaz" placeholder='Kullanıcı Adı' onChange={(e) => dispatch(getUserName(e.target.value))} />
+                            <input type="text" required="boş kalamaz" placeholder='Kullanıcı Adı' onChange={(e) => dispatch(getUserName(e.target.value)
+
+
+
+                            )
+
+
+                            } />
 
                         </div>
 
