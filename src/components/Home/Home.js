@@ -15,6 +15,7 @@ function Home() {
   const resultShow = useSelector(ts => ts.test.resultShow)
   const userName = useSelector(ts => ts.test.userName)
   const dispatch = useDispatch()
+
   const texts = [{
     text1: "Aleyna'yı tanımıyorsunuz. Daha çok zaman ayırın",
     text2: "Aleyna sizinle arkadaşlık ediyor. Ama olmazzsa olmaz değilsiniz. Birşeyler değişmeli!!",
@@ -66,11 +67,45 @@ function Home() {
               dispatch(changeDisabled(true))
               dispatch(chanceResultShow(true))
               dispatch(getText(answers))
-              axios.post("http://localhost:9000/api/user", {
-                username: userName,
-                point: puan,
-                text: answers
-              }).then((res) => console.log(res))
+              /*  axios.post(`${process.env.URL}/api/user`, {
+                 username: userName,
+                 point: puan,
+                 text: answers
+               }).then((res) => console.log(res)) */
+
+
+
+
+
+              var data = JSON.stringify({
+                "collection": "users",
+                "database": "ada-db",
+                "dataSource": "Cluster0",
+                "projection": {
+                  username: userName,
+                  point: puan,
+                  text: answers
+                }
+              });
+
+              var config = {
+                method: 'post',
+                url: 'https://data.mongodb-api.com/app/data-jtndv/endpoint/data/v1/action/findOne',
+                headers: {
+                  'Content-Type': 'application/json',
+                  'Access-Control-Request-Headers': '*',
+                  'api-key': 'UKCA7LlCJF7jGa0WQepmHCmSyDZZDHWAmhqfqLw65t4x2A4kpeFMYQkLyyVsEngD',
+                },
+                data: data
+              };
+
+              axios(config)
+                .then(function (response) {
+                  console.log(JSON.stringify(response.data));
+                })
+                .catch(function (error) {
+                  console.log(error);
+                });
 
             }
             else {
