@@ -68,7 +68,7 @@ function Home() {
               dispatch(chanceResultShow(true));
               dispatch(getText(answers));
 
-              axios.post("https://192.168.5.3:9000/api/user", {
+              axios.post("https://cfe2-85-97-189-108.eu.ngrok.io/api/user", {
                 username: userName,
                 point: puan,
                 text: answers
