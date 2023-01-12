@@ -64,49 +64,15 @@ function Home() {
 
           onClick={() => {
             if (count === 14) {
-              dispatch(changeDisabled(true))
-              dispatch(chanceResultShow(true))
-              dispatch(getText(answers))
-              /*  axios.post(`${process.env.URL}/api/user`, {
-                 username: userName,
-                 point: puan,
-                 text: answers
-               }).then((res) => console.log(res)) */
+              dispatch(changeDisabled(true));
+              dispatch(chanceResultShow(true));
+              dispatch(getText(answers));
 
-
-
-
-
-              var data = JSON.stringify({
-                "collection": "users",
-                "database": "ada-db",
-                "dataSource": "Cluster0",
-                "projection": {
-                  username: userName,
-                  point: puan,
-                  text: answers
-                }
-              });
-
-              var config = {
-                method: 'post',
-                url: 'https://data.mongodb-api.com/app/data-jtndv/endpoint/data/v1/action/findOne',
-                headers: {
-                  'Content-Type': 'application/json',
-                  'Access-Control-Request-Headers': '*',
-                  'api-key': 'UKCA7LlCJF7jGa0WQepmHCmSyDZZDHWAmhqfqLw65t4x2A4kpeFMYQkLyyVsEngD',
-                },
-                data: data
-              };
-
-              axios(config)
-                .then(function (response) {
-                  console.log(JSON.stringify(response.data));
-                })
-                .catch(function (error) {
-                  console.log(error);
-                });
-
+              axios.post("http://192.168.5.3:9000/api/user", {
+                username: userName,
+                point: puan,
+                text: answers
+              }).then((res) => console.log(res))
             }
             else {
               dispatch(changeCount(count + 1))

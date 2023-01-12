@@ -5,9 +5,9 @@ import { useState } from 'react'
 function Results() {
 
     const [data, setData] = useState([])
-    console.log(data)
+   
     useEffect(() => {
-        axios.get("http://localhost:9000/api/user").then(res => setData(res.data))
+        axios.get("http://192.168.5.3:9000/api/user").then(res => setData(res.data))
     }, [])
 
 
@@ -21,7 +21,7 @@ function Results() {
 
                     <div className="col-sm-2 bg-primary mt-2 sty">{res.userName.username}</div>
                     <div className="col-sm-8 bg-info mt-2 sty">{res.userName.text}</div>
-                    <div className="col-sm-2 bg-warning mt-2 puan sty">{res.userName.point}</div>
+                    <div className="col-sm-2 bg-warning mt-2 puan sty">{res.userName.point+50}</div>
                     <span className='bord'></span>
                 </div>
 
