@@ -7,7 +7,7 @@ function Results() {
     const [data, setData] = useState([])
    
     useEffect(() => {
-        axios.get("https://cfe2-85-97-189-108.eu.ngrok.io/api/user").then(res => setData(res.data))
+        axios.get("https://1045-85-97-189-108.eu.ngrok.io/api/user").then(res => setData(res.data))
     }, [])
 
 
