@@ -51,7 +51,7 @@ function User() {
 
 
                         <div className='user-div'>
-                            <Link to="home"><button disabled={disabled} className='user-btn btn btn-primary ' >Teste Başla</button></Link>
+                            <button disabled={disabled} className=' btn btn-primary' ><a className='user-btn btn btn-primary ' href="home">Teste Başla</a></button>
                         </div>
 
                     </form>
