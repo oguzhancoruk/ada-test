@@ -16,7 +16,7 @@ function Login() {
     }]
     const [user, setUser] = useState()
     const [pas, setPass] = useState()
-    console.log(user, pas)
+   
 
     if (user === "adatest@gmail.com" & pas === "bobo1234") {
 

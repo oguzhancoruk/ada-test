@@ -19,16 +19,27 @@ function Results() {
 
 
     return (
-        <div>
-            <div>
+        <div className=' col-sm-12 d-flex justify-content-center'>
+            <div className='col-sm-12 mt-1'>
+         
+                {data.map(res => 
+                
+                
+                <div className=' row ts bg-body rounded p-1'>
 
-                {data.map(res => <div className='row ts'>
-
-                    <div className="col-sm-2 bg-primary mt-2 sty">{res.userName.username}</div>
-                    <div className="col-sm-8 bg-info mt-2 sty">{res.userName.text}</div>
-                    <div className="col-sm-2 bg-warning mt-2 puan sty">{res.userName.point+50}</div>
-                    <span className='bord'></span>
-                </div>
+               
+                    <ul className='list-group col-sm-3'>
+                        <li className='list-group-item bg-info text-white'>{res.userName.username}</li>
+                    </ul>
+                    <ul className='list-group col-sm-6'>
+                        <li className='list-group-item bg-danger text-white'>{res.userName.text}</li>
+                    </ul>
+                    <ul className='list-group col-sm-3'>
+                        <li className='list-group-item bg-primary text-white'>{res.userName.point+50}</li>
+                    </ul>
+                  </div>
+                  
+              
 
                 )}</div>
         </div>
