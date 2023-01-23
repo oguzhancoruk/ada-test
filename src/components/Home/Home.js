@@ -68,7 +68,7 @@ function Home() {
               dispatch(chanceResultShow(true));
               dispatch(getText(answers));
 
-              axios.post("https://1045-85-97-189-108.eu.ngrok.io/api/user", {
+              axios.post("https://ada-test.onrender.com/api/users", {
                 username: userName,
                 point: puan,
                 text: answers

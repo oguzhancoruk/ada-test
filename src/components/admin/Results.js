@@ -7,7 +7,12 @@ function Results() {
     const [data, setData] = useState([])
    
     useEffect(() => {
-        axios.get("https://1045-85-97-189-108.eu.ngrok.io/api/user").then(res => setData(res.data))
+        axios.get("https://ada-test.onrender.com/api/users", {
+            headers: {
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept"
+            }
+        }).then(res => setData(res.data))
     }, [])
 
 
